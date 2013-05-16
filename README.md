@@ -8,6 +8,7 @@ Using fuzzy logic I removed it from Wordpress, added a graphic interface which p
 The floor plans page is run off of the data received from the API.
 
 Steps so far:
+
 -- data driven floor plans page
 - Connect to the API using JSON #Thank you Thomas! 
 - Get data from API and convert it to PHP so we can work with it #Thanks Bill! 
