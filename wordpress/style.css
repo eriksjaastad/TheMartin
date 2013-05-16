@@ -1,0 +1,447 @@
+/*
+Theme Name: The Martin
+Author: Turnstyle Studio
+Author URI: http://www.turnstylestudio.com/
+Description: The 2013 theme for The Margin.
+Version: 1.0.2
+*/
+
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+html, body {
+      width: 100%;
+      height: 100%;
+}
+.right {
+	float:right;	
+}
+.left {
+	float:left;
+}
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:#444;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.site-wrap {
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 50px; /* height of thumbs (if not required set to 0) */
+    height: 100%;
+    width: auto;
+	padding-top: 500px; /*Sets a min-padding from top with the footer*/
+	z-index:10;
+/*	max-width:1280px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+*/
+}
+
+/* header */
+.header {
+	
+}
+/* logo */
+.logo {
+	
+}
+.logo-img {
+	
+}
+/* nav */
+.nav {
+	
+}
+/* sidebar */
+.sidebar {
+	
+}
+
+/* footer */
+footer {
+  position: absolute;
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 55px;
+  background: #000000;
+  font-size: 0;
+  line-height: 0;
+  width: 100%
+}
+footer a {
+  color: #ffffff;
+}
+footer .btn {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 7px 10px;
+  width: 87px;
+  height: 24px;
+  font: 0/0 a;
+  vertical-align: middle;
+  background: url(http://themartin.logicdesigns.com/new/wp-content/themes/themartin/img/footer-btn-chatapply.png) 0 0 no-repeat;
+}
+footer .btn.livechat {
+  margin-right: 10px;
+}
+footer .btn.livechat:hover {
+  background-position: 0 -24px;
+}
+footer .btn.apply {
+  width: 112px;
+  background-position: -87px 0;
+}
+footer .btn.apply:hover {
+  background-position: -87px -24px;
+}
+footer .addgroup {
+  display: inline-block;
+  margin: 0 3px;
+  vertical-align: middle;
+}
+footer .social-icons {
+  display: inline-block;
+  margin: 0 8px;
+}
+footer .copyright .copyright-shim {
+  margin-top: 10px;
+}
+footer .content {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+footer .content .copyright {
+	display: block;
+	font-size: 0.722em;
+	float: left;
+}
+footer .content .copyright-shim{
+		display: block;
+		font-size: 0.722em;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		float: left;
+}
+footer .content .copyright p {
+  display: inline;
+}
+footer .content .copyright img {
+  vertical-align: middle;
+}
+footer .vulcan {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: -20px;
+}
+footer .vulcan a {
+  display: inline-block;
+}
+footer .vulcan a img {
+  display: block;
+}
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  font: 0/0 a;
+  vertical-align: middle;
+  background: url(http://themartin.logicdesigns.com/new/wp-content/themes/themartin/img/footer-icon-social.png) 0 0 no-repeat;
+}
+.icon.facebook {
+  background-position: right 0;
+}
+.icon:hover {
+  background-position: 0 -20px;
+}
+.icon.facebook:hover {
+  background-position: right -20px;
+}
+
+	
+
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+.pages {
+	position: absolute;
+	top: 0;
+	left:0;
+	height: 100%;
+	width: 100%;
+}
+#new-royalslider-1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0; /* height of thumbs (if not required set to 0) */
+	height: auto;
+	width: auto;
+}
+
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (max-width:320px) {
+footer {
+	padding: 20px 0;
+}
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (max-width:768px) {
+footer {
+	padding: 30px 8px;
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+   
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+   
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}
